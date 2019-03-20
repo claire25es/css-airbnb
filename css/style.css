@@ -1,7 +1,21 @@
+body {
+	margin: 0 auto;
+	background-color: rgb(237, 239, 236);
+}
+
 header {
 	color: rgb(88, 91, 95);
 	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	text-align:center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 18px;
 }
 
 img {
@@ -9,11 +23,12 @@ img {
 	height: 400px;
 }
 
+
 .row-img {
 	position: relative;
 	text-align: center;
 	color: white;
-	padding: 20px;
+	padding: 10px;
 }
 
 .img-text {
@@ -22,7 +37,9 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-	font-size: 40px;
+	font-size: 33px;
+	text-decoration: bold;
+	display: inline;
 }
 
 p {
@@ -31,18 +48,21 @@ p {
 	text-align: center;
 }
 
-.row-1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+#container-1, #container-2 {
+	background-color: white;
 }
 
-.row-2 {
+.special-boxes {
+	border: solid 1px rgb(88, 91, 95);
+	padding: 10px;
+}
+
+.row-1, .row-2 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: center;
+}
 
 
 
